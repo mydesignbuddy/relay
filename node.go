@@ -4,9 +4,10 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/graphql-go/graphql"
-	"golang.org/x/net/context"
 	"strings"
+
+	graphql "github.com/mydesignbuddy/graphql-app-engine"
+	"golang.org/x/net/context"
 )
 
 type NodeDefinitions struct {

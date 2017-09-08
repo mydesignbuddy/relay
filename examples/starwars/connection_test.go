@@ -1,11 +1,12 @@
 package starwars_test
 
 import (
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/testutil"
-	"github.com/graphql-go/relay/examples/starwars"
 	"reflect"
 	"testing"
+
+	graphql "github.com/mydesignbuddy/graphql-app-engine"
+	"github.com/mydesignbuddy/graphql-app-engine/testutil"
+	"github.com/mydesignbuddy/relay-app-engine/examples/starwars"
 )
 
 func TestConnection_TestFetching_CorrectlyFetchesTheFirstShipOfTheRebels(t *testing.T) {

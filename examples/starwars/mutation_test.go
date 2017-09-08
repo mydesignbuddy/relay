@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/testutil"
-	"github.com/graphql-go/relay/examples/starwars"
+	graphql "github.com/mydesignbuddy/graphql-app-engine"
+	"github.com/mydesignbuddy/graphql-app-engine/testutil"
+	"github.com/mydesignbuddy/relay-app-engine/examples/starwars"
 )
 
 func TestMutation_CorrectlyMutatesTheDataSet(t *testing.T) {
